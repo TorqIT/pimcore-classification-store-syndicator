@@ -1,0 +1,1 @@
+# pimcore-classification-store-syndicator

@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\ClassificationStoreSyndicatorBundle;
+namespace TorqIT\ClassificationStoreSyndicator;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 use Pimcore\Extension\Bundle\Traits\BundleAdminClassicTrait;

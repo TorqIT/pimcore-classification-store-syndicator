@@ -12,7 +12,7 @@
     "extra": {
         "pimcore": {
             "bundles": [
-                "TorqIT\\ClassificationStoreSyndicator\\ClassificationStoreSyndicator"
+                "TorqIT\\ClassificationStoreSyndicator\\ClassificationStoreSyndicatorBundle"
             ]
         }
     }

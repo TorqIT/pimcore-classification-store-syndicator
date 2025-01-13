@@ -9,7 +9,12 @@ services:
         # if you need to do this, you can override this setting on individual services
         public: false
 
-    TorqIT\ClassificationStoreSyndicatorBundle\Services\:
+    TorqIT\ClassificationStoreSyndicator\Services\:
         resource: "../../Services"
         public: true
         tags: ["controller.service_arguments"]
+
+    TorqIT\ClassificationStoreSyndicator\Installer\ClassificationStoreSyndicatorBundleInstaller:
+        public: true
+        arguments:
+            $bundle: "@=service('kernel').getBundle('ClassificationStoreSyndicatorBundle')"

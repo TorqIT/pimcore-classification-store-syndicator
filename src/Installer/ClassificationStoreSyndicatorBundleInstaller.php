@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\ClassificationStoreSyndicator;
+namespace TorqIT\ClassificationStoreSyndicator\Installer;
 
 use Pimcore\Extension\Bundle\Installer\SettingsStoreAwareInstaller;
 

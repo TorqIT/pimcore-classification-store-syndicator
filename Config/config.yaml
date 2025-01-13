@@ -1,0 +1,12 @@
+messenger:
+        transports:
+            configurable_sync_queue:
+                dsn: "doctrine://default"
+                options:
+                    auto_setup: true
+                    queue_name: configurable_sync_queue
+                retry_strategy:
+                    max_retries: 0
+
+        routing:
+            'App\Messenger\Message\ConfigurableSyncMessage': configurable_sync_queue

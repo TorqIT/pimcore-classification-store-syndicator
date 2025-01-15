@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\ClassificationStoreSyndicator\Models;
+namespace TorqIT\ClassificationStoreSyndicator\Model;
 
 use JsonSerializable;
 use Pimcore\Model\DataObject\Classificationstore\KeyConfig;

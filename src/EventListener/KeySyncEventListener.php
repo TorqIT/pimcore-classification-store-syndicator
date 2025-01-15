@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\ClassificationStoreSyndicator\Listeners;
+namespace TorqIT\ClassificationStoreSyndicator\EventListener;
 
 use App\Service\PimSync\ClassificationStoreSyncService;
 use App\Service\Translation\AttributeTranslationsService;

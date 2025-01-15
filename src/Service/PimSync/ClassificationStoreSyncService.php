@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\ClassificationStoreSyndicator\Services;
+namespace TorqIT\ClassificationStoreSyndicator\Service\PimSync;
 
 use App\Messenger\Message\ConfigurableSyncMessage;
 use App\Model\ConfigModels\ConfigurableDataModel;

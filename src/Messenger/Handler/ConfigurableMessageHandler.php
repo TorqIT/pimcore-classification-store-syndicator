@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\ClassificationStoreSyndicator\Messenger\Handlers;
+namespace TorqIT\ClassificationStoreSyndicator\Messenger\Handler;
 
 use TorqIT\ClassificationStoreSyndicator\Messenger\Messages\ConfigurableSyncMessage;
 

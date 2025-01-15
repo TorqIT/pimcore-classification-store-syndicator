@@ -1,6 +1,6 @@
 <?php
 
-namespace TorqIT\ClassificationStoreSyndicator\Messenger\Messages;
+namespace TorqIT\ClassificationStoreSyndicator\Messenger\Message;
 
 class ConfigurableSyncMessage
 {
